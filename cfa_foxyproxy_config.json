@@ -1,0 +1,81 @@
+{
+  "mode": "localhost:9000",
+  "sync": false,
+  "autoBackup": false,
+  "passthrough": "",
+  "theme": "",
+  "container": {},
+  "commands": {
+    "quickAdd": "",
+    "setProxy": "",
+    "setTabProxy": ""
+  },
+  "data": [
+    {
+      "active": true,
+      "cc": "US",
+      "city": "",
+      "color": "#faebd7",
+      "exclude": [],
+      "hostname": "localhost",
+      "include": [
+        {
+          "active": true,
+          "pattern": "^airflow\\..*\\.cfadevelop\\.com$",
+          "title": "",
+          "type": "regex"
+        },
+        {
+          "active": true,
+          "pattern": "^jenkins\\..*\\.cfadevelop\\.com$",
+          "title": "",
+          "type": "regex"
+        },
+        {
+          "active": true,
+          "pattern": "^airflow\\..*\\.cfahome\\.com$",
+          "title": "",
+          "type": "regex"
+        },
+        {
+          "active": true,
+          "pattern": "(?:^|\\.)airflow\\.amazonaws\\.com$",
+          "title": "",
+          "type": "regex"
+        },
+        {
+          "active": true,
+          "pattern": "mlflow\\..*\\.cfadevelop\\.com$",
+          "title": "",
+          "type": "regex"
+        },
+        {
+          "active": true,
+          "pattern": "mlflow\\..*\\.cfahome\\.com$",
+          "title": "",
+          "type": "regex"
+        },
+        {
+          "active": true,
+          "pattern": "(?:^|\\.)amazonaws\\.com$",
+          "title": "",
+          "type": "regex"
+        },
+        {
+          "active": true,
+          "pattern": "(?:^|\\.)ec2\\.internal$",
+          "title": "",
+          "type": "regex"
+        }
+      ],
+      "pac": "",
+      "pacString": "",
+      "password": "",
+      "port": "9000",
+      "proxyDNS": true,
+      "title": "CFAPROXY",
+      "type": "socks5",
+      "username": ""
+    }
+  ]
+}
